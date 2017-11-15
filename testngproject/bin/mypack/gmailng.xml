@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+  <test name="Test1">
+  <parameter name="uid" value="ashudulla"/>
+   <parameter name="criteria" value="valid"/>
+    <classes>
+      <class name="mypack.Gmail_Testng"/>
+    </classes>
+ 	</test>
+  <test name="Test2">
+  <parameter name="uid" value="ash35dopp"/>
+   <parameter name="criteria" value="invalid"/>
+    <classes>
+      <class name="mypack.Gmail_Testng"/>
+    </classes>
+  </test> 
+  <test name="Test3">
+  <parameter name="uid" value="      "/>
+   <parameter name="criteria" value="invalid"/>
+    <classes>
+      <class name="mypack.Gmail_Testng"/>
+    </classes>
+  </test> 
+</suite> 

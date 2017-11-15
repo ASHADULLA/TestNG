@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40385" started-at="2017-11-15T17:15:38Z" finished-at="2017-11-15T17:16:19Z">
+    <groups>
+    </groups>
+    <test name="Test3" duration-ms="40119" started-at="2017-11-15T17:15:38Z" finished-at="2017-11-15T17:16:18Z">
+      <class name="mypack.Gmail_Testng">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mypack.Gmail_Testng@6eebc39e]" name="launch" duration-ms="26888" started-at="2017-11-15T22:45:38Z" finished-at="2017-11-15T22:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="useridtest(java.lang.String, java.lang.String)[pri:1, instance:mypack.Gmail_Testng@6eebc39e]" name="useridtest" duration-ms="10847" started-at="2017-11-15T22:46:05Z" finished-at="2017-11-15T22:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useridtest -->
+        <test-method status="PASS" signature="close()[pri:2, instance:mypack.Gmail_Testng@6eebc39e]" name="close" duration-ms="2319" started-at="2017-11-15T22:46:16Z" finished-at="2017-11-15T22:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mypack.Gmail_Testng -->
+    </test> <!-- Test3 -->
+    <test name="Test1" duration-ms="40119" started-at="2017-11-15T17:15:38Z" finished-at="2017-11-15T17:16:18Z">
+      <class name="mypack.Gmail_Testng">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mypack.Gmail_Testng@3532ec19]" name="launch" duration-ms="27137" started-at="2017-11-15T22:45:38Z" finished-at="2017-11-15T22:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="useridtest(java.lang.String, java.lang.String)[pri:1, instance:mypack.Gmail_Testng@3532ec19]" name="useridtest" duration-ms="10722" started-at="2017-11-15T22:46:05Z" finished-at="2017-11-15T22:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashudulla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useridtest -->
+        <test-method status="PASS" signature="close()[pri:2, instance:mypack.Gmail_Testng@3532ec19]" name="close" duration-ms="2211" started-at="2017-11-15T22:46:16Z" finished-at="2017-11-15T22:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mypack.Gmail_Testng -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="40385" started-at="2017-11-15T17:15:38Z" finished-at="2017-11-15T17:16:19Z">
+      <class name="mypack.Gmail_Testng">
+        <test-method status="PASS" signature="launch()[pri:0, instance:mypack.Gmail_Testng@4667ae56]" name="launch" duration-ms="27029" started-at="2017-11-15T22:45:38Z" finished-at="2017-11-15T22:46:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="useridtest(java.lang.String, java.lang.String)[pri:1, instance:mypack.Gmail_Testng@4667ae56]" name="useridtest" duration-ms="10975" started-at="2017-11-15T22:46:05Z" finished-at="2017-11-15T22:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ash35dopp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useridtest -->
+        <test-method status="PASS" signature="close()[pri:2, instance:mypack.Gmail_Testng@4667ae56]" name="close" duration-ms="2331" started-at="2017-11-15T22:46:16Z" finished-at="2017-11-15T22:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mypack.Gmail_Testng -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
